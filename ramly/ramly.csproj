@@ -112,6 +112,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="FAQ.aspx" />
     <Content Include="Homepage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -186,6 +187,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
     </Compile>
     <Compile Include="Homepage.aspx.cs">
       <DependentUpon>Homepage.aspx</DependentUpon>
