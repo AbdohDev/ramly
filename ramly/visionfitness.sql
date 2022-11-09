@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[member] (
-    [Id]              		 INT        NOT NULL,
+    [Id]              		 INT IDENTITY(1,1)       NOT NULL,
     [member_name]     		 CHAR (200) NOT NULL,
     [member_email]    		 CHAR (200) NOT NULL,
     [member_password] 		 CHAR (200) NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE [dbo].[member] (
 );
 
 CREATE TABLE [dbo].[traineradmin] (
-    [Id]                     INT        NOT NULL,
+    [Id]                     INT IDENTITY(1,1)       NOT NULL,
     [traineradmin_name]      CHAR (200) NOT NULL,
     [traineradmin_email]     CHAR (200) NOT NULL,
     [traineradmin_password]  CHAR (200) NOT NULL,
@@ -18,7 +18,7 @@ CREATE TABLE [dbo].[traineradmin] (
 );
 
 CREATE TABLE [dbo].[article] (
-    [Id]                     INT         NOT NULL,
+    [Id]                     INT IDENTITY(1,1)        NOT NULL,
 	[article_title]			 CHAR (200)  NOT NULL,
 	[article_body]			 CHAR (3000) NOT NULL,
 	[article_datetime]		 datetime	 NOT NULL,
@@ -29,7 +29,7 @@ CREATE TABLE [dbo].[article] (
 );
 
 CREATE TABLE [dbo].[content] (
-    [Id]                     INT         NOT NULL,
+    [Id]                     INT IDENTITY(1,1)       NOT NULL,
 	[content_title]			 CHAR (200)  NOT NULL,
 	[content_body]			 CHAR (3000) NOT NULL,
 	[content_datetime]		 datetime	 NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE [dbo].[content] (
 );
 
 CREATE TABLE [dbo].[comment] (
-    [Id]                     INT         NOT NULL,
+    [Id]                     INT IDENTITY(1,1)        NOT NULL,
 	[comment_body]			 CHAR (3000) NOT NULL,
 	[comment_datetime]		 datetime	 NOT NULL,
 	[article_id]			 INT         NULL,
@@ -51,14 +51,14 @@ CREATE TABLE [dbo].[comment] (
 );
 
 CREATE TABLE [dbo].[payment] (
-    [Id]                     INT        NOT NULL,
+    [Id]                     INT IDENTITY(1,1)       NOT NULL,
 	[payment_amount]		 INT		NOT NULL,
 	[member_id]				 INT        NOT NULL,
 	PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
 CREATE TABLE [dbo].[subscription] (
-    [Id]                     INT        NOT NULL,
+    [Id]                     INT IDENTITY(1,1)       NOT NULL,
 	[subscription_start] 	 datetime	NOT NULL,
 	[subscription_end]		 datetime	NOT NULL,
 	[payment_id]			 INT        NOT NULL,
@@ -66,7 +66,7 @@ CREATE TABLE [dbo].[subscription] (
 );
 
 CREATE TABLE [dbo].[booking] (
-    [Id]                     INT		 NOT NULL,
+    [Id]                     INT IDENTITY(1,1)		 NOT NULL,
 	[booking_start] 	 	 datetime	 NOT NULL,
 	[booking_end]			 datetime	 NOT NULL,
 	[booking_feedback]		 CHAR (3000) NOT NULL,
@@ -76,7 +76,7 @@ CREATE TABLE [dbo].[booking] (
 );
 
 CREATE TABLE [dbo].[forumtopic] (
-    [Id]                     INT         NOT NULL,
+    [Id]                     INT IDENTITY(1,1)        NOT NULL,
 	[forumtopic_title]		 CHAR (200)  NOT NULL,
 	[forumtopic_body]		 CHAR (3000) NOT NULL,
 	[forumtopic_datetime]	 datetime	 NOT NULL,
@@ -85,7 +85,7 @@ CREATE TABLE [dbo].[forumtopic] (
 );
 
 CREATE TABLE [dbo].[postreply] (
-    [Id]                     INT         NOT NULL,
+    [Id]                     INT IDENTITY(1,1)        NOT NULL,
 	[postreply_body]		 CHAR (3000) NOT NULL,
 	[postreply_datetime]	 datetime	 NOT NULL,
 	[member_id]			 	 INT         NULL,
