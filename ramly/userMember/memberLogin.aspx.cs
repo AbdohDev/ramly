@@ -29,18 +29,17 @@ namespace ramly.userMember
                 SqlCommand cmdType = new SqlCommand("select * from member where member_email = '" + member_email.Text + "' and member_password = '" + member_password.Text + "'", con);
                 SqlDataReader dr = cmdType.ExecuteReader();
 
-                string name = "";
+                string member_name = "";
                 string member_id = "";
 
                 while (dr.Read())
                 {
-                    name = dr["member_name"].ToString().Trim();
-                    member_id = dr["id"].ToString().Trim();
+                    member_name = dr["member_name"].ToString().Trim();
+                    member_id = dr["Id"].ToString().Trim();
                 }
                 Session["m_id"] = member_id;
-                Session["m_name"] = name;
+                Session["m_name"] = member_name;
                 Response.Redirect("memberHome.aspx");
-
 
             }
             else
