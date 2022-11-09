@@ -168,9 +168,12 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="userMember\memberContact.aspx" />
     <Content Include="userMember\memberHome.aspx" />
     <Content Include="userMember\memberLogin.aspx" />
     <Content Include="userMember\memberRegister.aspx" />
+    <Content Include="userMember\memberAbout.aspx" />
+    <Content Include="userMember\memberFAQ.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -309,6 +312,13 @@
     <Compile Include="userMember\member.Master.designer.cs">
       <DependentUpon>member.Master</DependentUpon>
     </Compile>
+    <Compile Include="userMember\memberContact.aspx.cs">
+      <DependentUpon>memberContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberContact.aspx.designer.cs">
+      <DependentUpon>memberContact.aspx</DependentUpon>
+    </Compile>
     <Compile Include="userMember\memberHome.aspx.cs">
       <DependentUpon>memberHome.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -329,6 +339,20 @@
     </Compile>
     <Compile Include="userMember\memberRegister.aspx.designer.cs">
       <DependentUpon>memberRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userMember\memberAbout.aspx.cs">
+      <DependentUpon>memberAbout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberAbout.aspx.designer.cs">
+      <DependentUpon>memberAbout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userMember\memberFAQ.aspx.cs">
+      <DependentUpon>memberFAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberFAQ.aspx.designer.cs">
+      <DependentUpon>memberFAQ.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
