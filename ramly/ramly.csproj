@@ -166,6 +166,7 @@
     <Content Include="Site.Master" />
     <Content Include="userMember\memberHome.aspx" />
     <Content Include="userMember\memberLogin.aspx" />
+    <Content Include="userMember\memberRegister.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -317,6 +318,13 @@
     </Compile>
     <Compile Include="userMember\memberLogin.aspx.designer.cs">
       <DependentUpon>memberLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userMember\memberRegister.aspx.cs">
+      <DependentUpon>memberRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberRegister.aspx.designer.cs">
+      <DependentUpon>memberRegister.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
