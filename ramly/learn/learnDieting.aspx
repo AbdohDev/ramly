@@ -12,7 +12,7 @@
   <div class="container">
   <div class="row">
     <div class="column-66">
-        <img src="Images/keto.jpg">
+        <img src="../images/keto.jpg">
     </div>
     <div class="column-33">
       <h2><b>1. Keto Diet</b></h2>
@@ -30,7 +30,7 @@
       <span>Start small. For example, start with a 10 hours gap between dinner and breakfast. Then 2 weeks later add 1 more hour to the gap. So on and so forth...</span>  
     </div>
     <div class="column-66">
-        <img src="Images/intermittent.jpg">
+        <img src="../images/intermittent.jpg">
     </div>
   </div>
   </div>
@@ -38,7 +38,7 @@
   <div class="container">
   <div class="row">
     <div class="column-66">
-        <img src="Images/vegandiet.jpg">
+        <img src="../images/vegandiet.jpg">
     </div>
     <div class="column-33">
       <h2><b>3. Vegan Diet</b></h2>
@@ -57,7 +57,7 @@
       <span>Although not as appealing, it is certainly way more sustainable than the other diets as it does not take too much of an effort. You won't see quick effects but slow and steady winds the race.</span>  
     </div>
     <div class="column-66">
-        <img src="Images/mediterranean.jpeg">
+        <img src="../images/mediterranean.jpeg">
     </div>
   </div>
   </div>

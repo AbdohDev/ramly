@@ -28,7 +28,7 @@
   <div class="container">
   <div class="row">
     <div class="column-66">
-        <img src="Images/goodfat.jpg">
+        <img src="../images/goodfat.jpg">
     </div>
     <div class="column-33">
       <h2><b>Fat is not Evil.</b></h2>
@@ -46,7 +46,7 @@
       <span>High-Protein Food: Chicken breast, milk, Egg, Soy, Greek Yogurt</span>  
     </div>
     <div class="column-66">
-        <img src="Images/protein.jpg">
+        <img src="../images/protein.jpg">
     </div>
   </div>
   </div>
@@ -54,7 +54,7 @@
   <div class="container">
   <div class="row">
     <div class="column-66">
-        <img src="Images/wheatbread.jpg">
+        <img src="../images/wheatbread.jpg">
     </div>
     <div class="column-33">
       <h2><b>Carb, the reliable source of Energy.</b></h2>
@@ -72,7 +72,7 @@
       <span>Vitamin and Mierals Food: Banana, Bell Peppers, Potatoes, Berries, Green Vegetables</span>  
     </div>
     <div class="column-66">
-        <img src="Images/pills.jpg">
+        <img src="../images/pills.jpg">
     </div>
   </div>
   </div>
@@ -80,7 +80,7 @@
   <div class="container">
   <div class="row">
     <div class="column-66">
-        <img src="Images/glasswater.jpeg">
+        <img src="../images/glasswater.jpeg">
     </div>
     <div class="column-33">
       <h2><b>We are water.</b></h2>

@@ -17,7 +17,7 @@
       <span>Tip: Do short intensive workout with little to no rest in between sets.</span>  
     </div>
     <div class="column-66">
-        <img src="Images/gymgirl.jpeg">
+        <img src="../images/gymgirl.jpeg">
     </div>
   </div>
   </div>
@@ -32,7 +32,7 @@
       <span>Even if you have no time to go to the gym,incorporating these activities will make you physically more active throughout the day.</span>  
     </div>
     <div class="column-66">
-        <img src="Images/cycletowork.jpeg">
+        <img src="../images/cycletowork.jpeg">
     </div>
   </div>
   </div>
@@ -45,7 +45,7 @@
       <span>Tip: As you have more time to do workouts during the weekend, increase your training volume so that the effect is more lasting throughout the following weekdays.</span>  
     </div>
     <div class="column-66">
-        <img src="Images/gymboy.jpeg">
+        <img src="../images/gymboy.jpeg">
     </div>
   </div>
   </div>
@@ -58,7 +58,7 @@
       <span>A fitness life with friends helps motivate you and keep you going long-term.</span>  
     </div>
     <div class="column-66">
-        <img src="Images/colleague.jpeg">
+        <img src="../images/colleague.jpeg">
     </div>
   </div>
   </div>
