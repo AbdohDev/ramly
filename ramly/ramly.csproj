@@ -112,7 +112,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Default.aspx" />
+    <Content Include="Homepage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -125,6 +125,17 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="learn\learnBar.aspx" />
+    <Content Include="learn\learnBarbell.aspx" />
+    <Content Include="learn\learnCable.aspx" />
+    <Content Include="learn\learnCalorieCalculator.aspx" />
+    <Content Include="learn\learnDieting.aspx" />
+    <Content Include="learn\learnDumbbell.aspx" />
+    <Content Include="learn\learnHome.aspx" />
+    <Content Include="learn\learnMUOHO.aspx" />
+    <Content Include="learn\learnNutrition.aspx" />
+    <Content Include="learn\learnWorkLifeBalance.aspx" />
+    <Content Include="learn\learnZEM.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -176,15 +187,92 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Homepage.aspx.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="Homepage.aspx.designer.cs">
+      <DependentUpon>Homepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnBar.aspx.cs">
+      <DependentUpon>learnBar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnBar.aspx.designer.cs">
+      <DependentUpon>learnBar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnBarbell.aspx.cs">
+      <DependentUpon>learnBarbell.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnBarbell.aspx.designer.cs">
+      <DependentUpon>learnBarbell.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnCable.aspx.cs">
+      <DependentUpon>learnCable.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnCable.aspx.designer.cs">
+      <DependentUpon>learnCable.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnCalorieCalculator.aspx.cs">
+      <DependentUpon>learnCalorieCalculator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnCalorieCalculator.aspx.designer.cs">
+      <DependentUpon>learnCalorieCalculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnDieting.aspx.cs">
+      <DependentUpon>learnDieting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnDieting.aspx.designer.cs">
+      <DependentUpon>learnDieting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnDumbbell.aspx.cs">
+      <DependentUpon>learnDumbbell.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnDumbbell.aspx.designer.cs">
+      <DependentUpon>learnDumbbell.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnHome.aspx.cs">
+      <DependentUpon>learnHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnHome.aspx.designer.cs">
+      <DependentUpon>learnHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnMUOHO.aspx.cs">
+      <DependentUpon>learnMUOHO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnMUOHO.aspx.designer.cs">
+      <DependentUpon>learnMUOHO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnNutrition.aspx.cs">
+      <DependentUpon>learnNutrition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnNutrition.aspx.designer.cs">
+      <DependentUpon>learnNutrition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnWorkLifeBalance.aspx.cs">
+      <DependentUpon>learnWorkLifeBalance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnWorkLifeBalance.aspx.designer.cs">
+      <DependentUpon>learnWorkLifeBalance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="learn\learnZEM.aspx.cs">
+      <DependentUpon>learnZEM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="learn\learnZEM.aspx.designer.cs">
+      <DependentUpon>learnZEM.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
@@ -196,12 +284,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -209,6 +299,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\" />
+    <Folder Include="userAdmin\" />
+    <Folder Include="userMember\" />
+    <Folder Include="userTrainer\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
