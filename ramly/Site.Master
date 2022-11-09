@@ -69,6 +69,8 @@
             </footer>
         </div>
 
+        <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [article]"></asp:SqlDataSource>
+
     </form>
 </body>
 </html>

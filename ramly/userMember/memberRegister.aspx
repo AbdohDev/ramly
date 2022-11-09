@@ -115,7 +115,7 @@
 
             <%-- Submit --%>
 
-            <asp:Button ID="submitButton" runat="server" BackColor="Black" BorderColor="Black" ForeColor="White" Height="63px" Text="Submit" Width="461px" />
+            <asp:Button ID="submitButton" runat="server" BackColor="Black" BorderColor="Black" ForeColor="White" Height="63px" Text="Submit" Width="461px" OnClick="submitButton_Click" />
 
             <br />
             <br />

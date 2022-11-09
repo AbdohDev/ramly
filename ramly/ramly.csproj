@@ -104,6 +104,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="App_Data\visionfitness.mdf" />
+    <Content Include="App_Data\visionfitness_log.ldf">
+      <DependentUpon>visionfitness.mdf</DependentUpon>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -335,7 +339,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="images\" />
     <Folder Include="userAdmin\" />
     <Folder Include="userTrainer\" />
