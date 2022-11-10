@@ -16,7 +16,7 @@
             <p>
                 Gym and Fitness lifestyle does not have to be a one-man-game. We as Vision Fitness are consistently trying our best to make fitness lifestyle more interactive and engaging. Come join our community Forum!</p>
             <p>
-                <a class="btn btn-default" href="">Learn more &raquo;</a>
+                <a class="btn btn-default" href="memberForum.aspx">Learn more &raquo;</a>
             </p>
         </div>
         <div style="background-image: linear-gradient(to right, #E8E2DB, #FAB95B); " class="col-md-4">
@@ -24,7 +24,7 @@
             <p>
                 We as fitness enthusiast love to hit the gym, but what do we do when we&#39;re not working out? We indulge in the latest fitness news from all around the world to soothe our fitness-crazed hearts!</p>
             <p>
-                <a class="btn btn-default" href="">Read more &raquo;</a>
+                <a class="btn btn-default" href="memberArticle.aspx">Read more &raquo;</a>
             </p>
         </div>
         <div class="col-md-4">

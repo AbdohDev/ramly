@@ -176,12 +176,15 @@
     <Content Include="style\MenuBar_style2.css" />
     <Content Include="style\MenuBar_style3.css" />
     <Content Include="style\MenuBar_style4.css" />
+    <Content Include="userMember\memberArticle.aspx" />
     <Content Include="userMember\memberContact.aspx" />
+    <Content Include="userMember\memberForum.aspx" />
     <Content Include="userMember\memberHome.aspx" />
     <Content Include="userMember\memberLogin.aspx" />
     <Content Include="userMember\memberRegister.aspx" />
     <Content Include="userMember\memberAbout.aspx" />
     <Content Include="userMember\memberFAQ.aspx" />
+    <Content Include="userMember\memberViewForum.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -320,12 +323,26 @@
     <Compile Include="userMember\member.Master.designer.cs">
       <DependentUpon>member.Master</DependentUpon>
     </Compile>
+    <Compile Include="userMember\memberArticle.aspx.cs">
+      <DependentUpon>memberArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberArticle.aspx.designer.cs">
+      <DependentUpon>memberArticle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="userMember\memberContact.aspx.cs">
       <DependentUpon>memberContact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="userMember\memberContact.aspx.designer.cs">
       <DependentUpon>memberContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userMember\memberForum.aspx.cs">
+      <DependentUpon>memberForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberForum.aspx.designer.cs">
+      <DependentUpon>memberForum.aspx</DependentUpon>
     </Compile>
     <Compile Include="userMember\memberHome.aspx.cs">
       <DependentUpon>memberHome.aspx</DependentUpon>
@@ -361,6 +378,13 @@
     </Compile>
     <Compile Include="userMember\memberFAQ.aspx.designer.cs">
       <DependentUpon>memberFAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userMember\memberViewForum.aspx.cs">
+      <DependentUpon>memberViewForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberViewForum.aspx.designer.cs">
+      <DependentUpon>memberViewForum.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
