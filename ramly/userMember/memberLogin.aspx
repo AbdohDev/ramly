@@ -24,18 +24,18 @@
             <br />
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Password is Required" ControlToValidate="member_password"></asp:RequiredFieldValidator>
 &nbsp;<br />
-           <asp:Button ID="loginButton" class="cancelbtn" runat="server" Height="55px" OnClick="Button1_Click" Text="Login" Width="205px" />
+           <asp:Button ID="loginButton" class="cancelbtn" runat="server" Height="55px" OnClick="loginButton_Click" Text="Login" Width="205px" />
             
             <br />
             <br />
-            <b>New here? <asp:LinkButton class="LoginButton" ID="register" runat="server" Font-Underline="False" href="memberRegister" OnClick="register_Click">Register</asp:LinkButton>
+            <b>New here? <asp:LinkButton class="registerButton" ID="register" runat="server" Font-Underline="False" href="memberRegister" OnClick="register_Click">Register</asp:LinkButton>
             </b>
             <br />
             <br />
             <asp:LinkButton ID="forgotPassword" runat="server" href="../ForgotPassword">Forgot Password</asp:LinkButton>
 &nbsp;<br />
             <br />
-            <asp:LinkButton ID="staffLogin" runat="server" href="../staff/StaffLogin.aspx">Staff Login</asp:LinkButton>
+            <asp:LinkButton ID="staffLogin" runat="server" href="../staffLogin" OnClick="staffLogin_Click">Staff Login</asp:LinkButton>
             <br />
             <br />
             <asp:Label ID="errMsg" runat="server" Text="errMsg" Visible="False"></asp:Label>
