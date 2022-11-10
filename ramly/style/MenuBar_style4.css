@@ -1,0 +1,69 @@
+﻿body {
+    font-family: sans-serif;
+    background-color: #E8E2DB;
+}
+
+.text-secondary {
+    color: #3d5d6f;
+}
+
+.header-section {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.h4,
+h4 {
+    font-size: 2rem;
+}
+
+h1 {
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #808080;
+}
+
+.fa,
+.fas {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: normal;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+a.text-secondary:focus,
+a.text-secondary:hover {
+    text-decoration: none;
+    color: #22343e;
+}
+
+#accordion .fa-plus {
+    transition: -webkit-transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out;
+    transition: transform 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+#accordion a[aria-expanded=true] .fa-plus {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

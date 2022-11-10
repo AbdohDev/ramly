@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="learnDieting.aspx.cs" Inherits="ramly.learn.learnDieting" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <link rel="stylesheet" href="Style_Sheet/dieting.css">
+    <link rel="stylesheet" href="../style/Learn_style3.css"> 
 <body>
-  <div style="background:url(Images/diet.jpg); background-repeat: no-repeat; background-size: cover;" class="about-section">
+  <div style="background:url(/Images/diet.jpg); background-repeat: no-repeat; background-size: cover;" class="about-section">
     <h1 id="diet">Diet</h1>
     <p>Every body has different reactions to different diet. One diet that is effective for an individual, does not mean that it will be effective to another person. That is why we should always understand the diet plans avaible before trying it.</p>
   </div>

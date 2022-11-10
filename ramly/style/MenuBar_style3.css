@@ -1,0 +1,41 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #E8E2DB;
+}
+
+#content {
+    margin: 50px;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contentTitle {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #808080, #FAB95B);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.subContent {
+    color: white;
+    padding: 20px;
+}
+
+.expandable:target {
+    height: 600px;
+}

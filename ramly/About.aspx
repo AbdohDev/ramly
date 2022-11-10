@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="ramly.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link rel="stylesheet" href="Style_Sheet/About.css">
+    <link rel="stylesheet" href="style/MenuBar_Style1.css">
     <div class="about-section">
   <h1>About Vision Fitness</h1>
   <p>Founded in 2022, Vision FItness&#39;s mission is to revolutionize the fitness industry by providing a stunning online fitness experience for everyone, anytime, anywhere. Here, you can experience online workout sessions, be part of the VisFit community Forums, go through One-to-One coaching, and receive latest news in the world of FItness. All in one package.</p>

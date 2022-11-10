@@ -168,6 +168,14 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="style\Learn_style1.css" />
+    <Content Include="style\Learn_style2.css" />
+    <Content Include="style\Learn_style3.css" />
+    <Content Include="style\Login_style.css" />
+    <Content Include="style\MenuBar_style1.css" />
+    <Content Include="style\MenuBar_style2.css" />
+    <Content Include="style\MenuBar_style3.css" />
+    <Content Include="style\MenuBar_style4.css" />
     <Content Include="userMember\memberContact.aspx" />
     <Content Include="userMember\memberHome.aspx" />
     <Content Include="userMember\memberLogin.aspx" />

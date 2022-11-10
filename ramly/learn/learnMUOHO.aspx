@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Style_Sheet/learnBW3.css">
+<link rel="stylesheet" href="../style/Learn_style2.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 </div>
 
 <div class="main">
-  <div style="background:url(Images/livingroom.jpeg);" class="about-section">
+  <div style="background-image:url(/Images/livingroom.jpeg);" class="about-section">
   <h1>Home-Effective Workout</h1>
   <p>Can't afford to get fitness equipments? Why not use objects around your house that you already have and start getting fit without paying a dime!</p>
   </div>

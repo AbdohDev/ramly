@@ -3,11 +3,11 @@
     <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Style_Sheet/learnBarbell.css">
+<link rel="stylesheet" href="../style/Learn_style1.css">
 </head>
 <body>
 
-<div class="sidenav">
+<div class="sidenav" style="background: #F16821">
   <div style="background-color: black; font-size: 30px;">
   <a href="#upperbody">Upper Body</a>
   <a href="#lowerbody">Lower Body</a>
@@ -28,7 +28,7 @@
   </div>
 </div>
 
-<div class="main">
+<div class="main" style="background-color: #FAB95B">
    <h2 id="Barbell_Workouts" style="text-align:center">Barbell Workouts</h2>
    <h2>Upper Body</h2>
        <p id="Frontal_Raise">Frontal Raise</p>

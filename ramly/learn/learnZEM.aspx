@@ -3,7 +3,7 @@
     <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Style_Sheet/learnBW.css">
+<link rel="stylesheet" href="../style/Learn_style2.css">
 </head>
 <body>
 
@@ -21,7 +21,7 @@
 </div>
 
 <div class="main">
-  <div style="background:url(Images/pushupbackground.jpg)" class="about-section">
+  <div style="background-image:url(/Images/pushupbackground.jpg)" class="about-section">
   <h1 id="noequipment">No-Equipment Workout</h1>
   <p>These exercises are the most convenient form of bodyweight exercise. No equipment or object are required. Just you, using gravity to your advantage.</p>
   </div>
