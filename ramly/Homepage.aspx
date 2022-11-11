@@ -25,7 +25,7 @@
                 <a class="btn btn-default" onclick="errorLoginFunction()">Read more &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="background-image: linear-gradient(to right, white, #E8E2DB)">
             <h2>Social Media
             </h2>
             <p>
