@@ -4,7 +4,7 @@
     <p>
     </p>
 <body style="background-color: #E8E2DB;">
-    <div style="background:url(Images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
+    <div style="background:url(/Images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
         <h1>Vision Fitness</h1>
         <p class="lead">Be our member, be our priority. Sign up for our membership and get exclusive access ot our live-workouts, 1-to-1 coaching, premium community and many more!</p>
         <p><a href="member/userRegister" class="btn btn-primary btn-lg">Sign Up Now &raquo;</a></p>
@@ -27,13 +27,13 @@
                 <a class="btn btn-default" href="memberArticle.aspx">Read more &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="background-image: linear-gradient(to right, white, #E8E2DB)">
             <h2>Social Media
             </h2>
             <p>
                 We are very much alive on Facebook and Instagram! Do follow our pages and get up to date, wherever you are scrolling.</p>
-            <p><img src="Images/insta.jpeg" / style="width:50px;"> @VisionFitness</p>
-            <p><img src="Images/fb.png" / style="width:50px;"> VisFit Malaysia</p>
+            <p><img src="/Images/insta.jpeg" / style="width:50px;"> @VisionFitness</p>
+            <p><img src="/Images/fb.png" / style="width:50px;"> VisFit Malaysia</p>
         </div>
     </div>
 </body>
