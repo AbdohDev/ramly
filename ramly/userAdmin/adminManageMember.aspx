@@ -7,14 +7,16 @@
         <div class="container">
             <div class="row">
                 <h3>View Member</h3>
+                <asp:TextBox ID="member_id" runat="server" OnTextChanged="member_id_TextChanged" Visible="False" ></asp:TextBox>
+                <br />
                 <asp:Label ID="traineradmin_name" runat="server" Text=""></asp:Label>
                 <div class="createcontentcard">
                     <div class="col-sm-6">
-                        Member Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Label ID="Label3" runat="server" Text="Member Name :"></asp:Label>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:DropDownList ID="member_name" runat="server" OnSelectedIndexChanged="member_DropDown" Width="129px" DataSourceID="SqlDataSource1" DataTextField="member_name" DataValueField="member_name" AutoPostBack="True">
                 </asp:DropDownList>
                         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [member_name], [member_email], [member_contact] FROM [member]"></asp:SqlDataSource>
-                <asp:TextBox ID="member_id" runat="server" OnTextChanged="member_id_TextChanged" Visible="False" ></asp:TextBox>
                         <br />
                         <br />
                     </div>
