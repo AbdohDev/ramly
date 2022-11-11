@@ -127,6 +127,7 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="staffLogin.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="learn\learnBar.aspx" />
     <Content Include="learn\learnBarbell.aspx" />
@@ -394,6 +395,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="staffLogin.aspx.cs">
+      <DependentUpon>staffLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staffLogin.aspx.designer.cs">
+      <DependentUpon>staffLogin.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
