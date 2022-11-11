@@ -6,15 +6,14 @@
     </h1>
     <asp:Label ID="traineradmin_name" runat="server"></asp:Label>
     &nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Edit Profile</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton1" runat="server" >Edit Profile</asp:LinkButton>
     &nbsp;&nbsp;&nbsp;
     <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click1">Sign Out</asp:LinkButton>
     <br />
 <body>
     <div style="background:url(/images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
         <h1>Vision Fitness</h1>
-        <p class="lead">Be our member, be our priority. Sign up for our membership and get exclusive access ot our live-workouts, 1-to-1 coaching, premium community and many more!</p>
-        <p><a href="../member/userRegister" class="btn btn-primary btn-lg">Sign Up Now &raquo;</a></p>
+        <p class="lead">Welcome!</p>
     </div>
 
     <div class="row">

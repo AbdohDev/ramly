@@ -69,6 +69,7 @@ namespace ramly.userAdmin
 
         protected void Button2_Click(object sender, EventArgs e)
         //Delete a record in the database
+
         {
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
             con.Open();
