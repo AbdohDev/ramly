@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="member.Master" AutoEventWireup="true" CodeBehind="FAQ.aspx.cs" Inherits="ramly.FAQ" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <link rel="stylesheet" href="Style_Sheet/FAQ.css">
+    <link rel="stylesheet" href="style/MenuBar_Style4.css">
 <head>
 <!-- FontAwesome CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
