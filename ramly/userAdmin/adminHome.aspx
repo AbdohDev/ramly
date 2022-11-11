@@ -1,14 +1,14 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="member.Master" AutoEventWireup="true" CodeBehind="memberHome.aspx.cs" Inherits="ramly.userMember.memberHome" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/userAdmin/admin.Master" AutoEventWireup="true" CodeBehind="adminHome.aspx.cs" Inherits="ramly.userAdmin.adminHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <asp:Label ID="traineradmin_name" runat="server" Text="Label"></asp:Label>
     <p>
     </p>
 <body>
     <div style="background:url(/images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
         <h1>Vision Fitness</h1>
         <p class="lead">Be our member, be our priority. Sign up for our membership and get exclusive access ot our live-workouts, 1-to-1 coaching, premium community and many more!</p>
-        <p><a href="/member/userRegister" class="btn btn-primary btn-lg">Sign Up Now &raquo;</a></p>
+        <p><a href="../member/userRegister" class="btn btn-primary btn-lg">Sign Up Now &raquo;</a></p>
     </div>
 
     <div class="row">
