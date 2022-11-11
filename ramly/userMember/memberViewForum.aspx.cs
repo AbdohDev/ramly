@@ -11,12 +11,12 @@ namespace ramly.userMember
 {
     public partial class memberViewForum : System.Web.UI.Page
     {
-        private string forum_id;
+        string forum_id;
         string forumtopic_title;
         string forumtopic_body;
         string forumtopic_datetime;
         string forumtopic_member_id;
-        string member_id;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             forum_id = Request.QueryString["forum_id"];
@@ -50,8 +50,7 @@ namespace ramly.userMember
                 title.InnerText = forumtopic_title;
                 time.InnerText = forumtopic_datetime;
                 content.InnerText = forumtopic_body;
-                memberid.InnerText = member_id;
-
+                memberid.InnerText = forumtopic_member_id;
 
 
 

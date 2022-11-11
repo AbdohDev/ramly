@@ -26,11 +26,10 @@
           BorderWidth="1px" CellPadding="3" Width="100%" CellSpacing="2" 
           DataKeyNames="Id"   onselectedindexchanged="GridView1_SelectedIndexChanged" EnableTheming="False">
           <Columns>
-              <asp:BoundField DataField="Id" HeaderText="Id" SortExpression="Id" InsertVisible="False" ReadOnly="True" />
-              <asp:BoundField DataField="forumtopic_title" HeaderText="forumtopic_title" SortExpression="forumtopic_title" />
-              <asp:BoundField DataField="forumtopic_body" HeaderText="forumtopic_body" SortExpression="forumtopic_body" />
-              <asp:BoundField DataField="forumtopic_datetime" HeaderText="forumtopic_datetime" SortExpression="forumtopic_datetime" />
-              <asp:BoundField DataField="member_id" HeaderText="member_id" SortExpression="member_id" />
+              <asp:BoundField DataField="Id" HeaderText="Forum ID" SortExpression="Id" InsertVisible="False" ReadOnly="True" />
+              <asp:BoundField DataField="forumtopic_title" HeaderText="Title" SortExpression="forumtopic_title" />
+              <asp:BoundField DataField="forumtopic_datetime" HeaderText="Time" SortExpression="forumtopic_datetime" />
+              <asp:BoundField DataField="member_id" HeaderText="Member ID" SortExpression="member_id" />
               <asp:hyperlinkField  Text="Open"
                   datanavigateurlfields="Id"
                    datanavigateurlformatstring="~\userMember\memberViewForum.aspx?forum_id={0}"   />

@@ -24,6 +24,15 @@ namespace ramly.userMember
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl title;
 
         /// <summary>
+        /// content control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl content;
+
+        /// <summary>
         /// memberid control.
         /// </summary>
         /// <remarks>
@@ -42,12 +51,21 @@ namespace ramly.userMember
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl time;
 
         /// <summary>
-        /// content control.
+        /// GridView1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl content;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
+
+        /// <summary>
+        /// SqlDataSource2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource2;
     }
 }
