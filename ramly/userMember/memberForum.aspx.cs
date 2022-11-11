@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
+using System.Configuration;
+
 
 namespace ramly.userMember
 {
@@ -12,7 +15,14 @@ namespace ramly.userMember
         public string id { get; private set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["m_name"] != null)
+            {
+                Label1.Text = "Hello and welcome user " + Session["m_name"].ToString() + "!";
+            }
+            else
+            {
+                Response.Redirect("memberHome");
+            }
         }
         protected void OnRowDataBound(System.Web.UI.WebControls.GridViewRowEventArgs e)
         {
@@ -48,6 +58,23 @@ namespace ramly.userMember
 
 
 
+        }
+
+        protected void addForum_Click(object sender, EventArgs e)
+        {
+            int uploaderID = Convert.ToInt32(Session["m_id"]);
+            DateTime now = DateTime.Now;
+            Session.Clear();
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
+            con.Open();
+
+            SqlCommand cmd = new SqlCommand("insert into forumtopic values('"+ txtTitle.InnerText + "','" + txtContent.InnerText + "','" + now + "','" + uploaderID + "')", con);
+            cmd.ExecuteNonQuery();
+
+            con.Close();
+            SqlDataSource2.EnableCaching = false;
+            GridView1.DataBind();
+            SqlDataSource2.EnableCaching = true;
         }
     }
 }

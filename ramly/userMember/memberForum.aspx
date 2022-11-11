@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="member.Master" AutoEventWireup="true" CodeBehind="memberForum.aspx.cs" Inherits="ramly.userMember.memberForum" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <link rel="stylesheet" href="/style/Forum_style1.css"> 
+    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
 <body>
 <h1>VisFit Forum</h1>
     <div class="container">
@@ -8,9 +9,9 @@
           <h2>Create new Forum</h2>
           <center>
           <div class="createforumcard">
-            <div class="col-6"><label class="labels">Title</label><input type="text" class="form-control" value="" placeholder="title"></div>
-            <div class="col-sm-6"><label class="labels">Content</label><textarea type="text" class="form-control w-100 mr-2" style="width:500px;height:stretch;" value="" placeholder="content"></textarea></div>
-            <button class="btn btn-primary upload-button" type="button">Upload</button>
+            <div class="col-sm-6"><label class="labels">Title</label><textarea runat="server" type="text"  class="form-control w-100 mr-2" style="width:500px;height:stretch;"  name="txtTitle" id="txtTitle"></textarea></div>
+            <div class="col-sm-6"><label class="labels">Content</label><textarea runat="server" type="text" class="form-control w-100 mr-2" style="width:500px;height:stretch;"  name="txtContent" id="txtContent"></textarea></div>
+            <asp:button runat="server" ID="addForum" class="btn btn-primary upload-button" OnClick="addForum_Click" Text="Upload"/>
           </div>
           </center>
         </div>     
