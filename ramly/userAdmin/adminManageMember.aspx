@@ -3,16 +3,18 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <body>
-        <h1>Vision Fitness</h1>
+        <h2>Vision Fitness Member Management</h2>
         <div class="container">
             <div class="row">
-                <h2>View Member</h2>
+                <h3>View Member</h3>
+                <asp:Label ID="traineradmin_name" runat="server" Text=""></asp:Label>
                 <div class="createcontentcard">
                     <div class="col-sm-6">
                         Member Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:DropDownList ID="member_name" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" Width="129px" DataSourceID="SqlDataSource1" DataTextField="member_name" DataValueField="member_name">
+                <asp:DropDownList ID="member_name" runat="server" OnSelectedIndexChanged="member_DropDown" Width="129px" DataSourceID="SqlDataSource1" DataTextField="member_name" DataValueField="member_name" AutoPostBack="True">
                 </asp:DropDownList>
                         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [member_name], [member_email], [member_contact] FROM [member]"></asp:SqlDataSource>
+                <asp:TextBox ID="member_id" runat="server" OnTextChanged="member_id_TextChanged" Visible="False" ></asp:TextBox>
                         <br />
                         <br />
                     </div>
@@ -28,8 +30,11 @@
                     <div class="col-sm-6">
                         <br />
                     </div>
-                    <div class="mt-5 text-center">
-                    </div>
+                    <asp:Button ID="Button1" runat="server" Text="Update" OnClick="Button1_Click" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="Button2" runat="server" Text="Delete" OnClick="Button2_Click" />
+
+                </div>
                 </div>
             </div>
 
