@@ -4,7 +4,7 @@
     <!DOCTYPE html>
 <head>
     <title>Login Page</title>
-<link rel="stylesheet" href="../style/Login_style.css" type="text/css"/> 
+<link rel="stylesheet" href="../style/Login_style2.css" type="text/css"/> 
 </head>
 <body>
     <form id="form1">
