@@ -180,6 +180,7 @@
     <Content Include="style\MenuBar_style3.css" />
     <Content Include="style\MenuBar_style4.css" />
     <Content Include="userAdmin\adminHome.aspx" />
+    <Content Include="userAdmin\adminManageMember.aspx" />
     <Content Include="userMember\memberArticle.aspx" />
     <Content Include="userMember\memberContact.aspx" />
     <Content Include="userMember\memberForum.aspx" />
@@ -333,6 +334,13 @@
     </Compile>
     <Compile Include="userAdmin\adminHome.aspx.designer.cs">
       <DependentUpon>adminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userAdmin\adminManageMember.aspx.cs">
+      <DependentUpon>adminManageMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userAdmin\adminManageMember.aspx.designer.cs">
+      <DependentUpon>adminManageMember.aspx</DependentUpon>
     </Compile>
     <Compile Include="userMember\member.Master.cs">
       <DependentUpon>member.Master</DependentUpon>
