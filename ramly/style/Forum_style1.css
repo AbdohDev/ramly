@@ -1,0 +1,110 @@
+﻿h1 {
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+h4 {
+    font-size: 15px;
+    text-align: center;
+    color: #808080;
+}
+
+a:hover {
+    color: #ff6a00;
+}
+
+h2 a {
+    color: black;
+}
+
+    h2 a:hover {
+        color: #ff6a00;
+    }
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #FAB95B;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.forum-table {
+    align-content: center;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #ffdeae;
+}
+
+.expandable {
+    font-size: 25px;
+    overflow: hidden;
+    line-height: 20px;
+    transition: all .5s ease-in-out;
+    height: 0;
+}
+
+    .expandable:target {
+        height: 200px;
+    }
+
+.row {
+    width: 100%;
+    margin: 0 -5px;
+}
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.createforumcard {
+    width: 60%;
+    display: inline-flex;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #E8E2DB;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #ffdeae;
+}
+
+.card2 {
+    display: inline-flex;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: auto;
+    padding: 20px;
+    align-content: center;
+    background-color: #E8E2DB;
+    border-radius: 5px;
+}
+
+.form-control {
+    padding: 10px;
+    width: 250px;
+}
+
+.upload-button {
+    height: auto;
+    background: #F16821;
+    box-shadow: none;
+    border: none
+}
