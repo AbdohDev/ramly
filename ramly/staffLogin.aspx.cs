@@ -52,11 +52,11 @@ namespace ramly
                 {
                     case "admin":
                         Session["s_role"] = staff_role;
-                        Response.Redirect("../userAdmin/adminHome");
+                        Response.Redirect("~/userAdmin/adminHome");
                         break;
                     case "trainer":
                         Session["s_role"] = staff_role;
-                        Response.Redirect("../userTrainer/trainerHome");
+                        Response.Redirect("~/userTrainer/trainerHome");
                         break;
                     default:
                         errMsg.Visible = true;
