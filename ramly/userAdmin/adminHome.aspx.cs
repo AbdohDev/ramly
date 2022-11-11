@@ -26,5 +26,13 @@ namespace ramly.userAdmin
                 //Debug Section: End
             }
         }
+
+        protected void LinkButton2_Click1(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Request.Cookies.Clear();
+
+            Response.Redirect("../staffLogin.aspx");
+        }
     }
 }

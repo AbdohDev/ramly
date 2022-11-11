@@ -1,9 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/userAdmin/admin.Master" AutoEventWireup="true" CodeBehind="adminHome.aspx.cs" Inherits="ramly.userAdmin.adminHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:Label ID="traineradmin_name" runat="server" Text="Label"></asp:Label>
-    <p>
-    </p>
+            <h1>
+        Admin Dashboard
+    </h1>
+    <asp:Label ID="traineradmin_name" runat="server"></asp:Label>
+    &nbsp;&nbsp;&nbsp;
+    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Edit Profile</asp:LinkButton>
+    &nbsp;&nbsp;&nbsp;
+    <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click1">Sign Out</asp:LinkButton>
+    <br />
 <body>
     <div style="background:url(/images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
         <h1>Vision Fitness</h1>
