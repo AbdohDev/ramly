@@ -165,12 +165,28 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="style\Forum_style1.css" />
+    <Content Include="style\Forum_style2.css" />
+    <Content Include="style\Learn_style1.css" />
+    <Content Include="style\Learn_style2.css" />
+    <Content Include="style\Learn_style3.css" />
+    <Content Include="style\Login_style2.css" />
+    <Content Include="style\Login_style.css" />
+    <Content Include="style\MenuBar_style1.css" />
+    <Content Include="style\MenuBar_style2.css" />
+    <Content Include="style\MenuBar_style3.css" />
+    <Content Include="style\MenuBar_style4.css" />
+    <Content Include="userAdmin\adminHome.aspx" />
+    <Content Include="userAdmin\adminManageMember.aspx" />
+    <Content Include="userMember\memberArticle.aspx" />
     <Content Include="userMember\memberContact.aspx" />
+    <Content Include="userMember\memberForum.aspx" />
     <Content Include="userMember\memberHome.aspx" />
     <Content Include="userMember\memberLogin.aspx" />
     <Content Include="userMember\memberRegister.aspx" />
     <Content Include="userMember\memberAbout.aspx" />
     <Content Include="userMember\memberFAQ.aspx" />
+    <Content Include="userMember\memberViewForum.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -302,6 +318,27 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="userAdmin\admin.Master.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userAdmin\admin.Master.designer.cs">
+      <DependentUpon>admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="userAdmin\adminHome.aspx.cs">
+      <DependentUpon>adminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userAdmin\adminHome.aspx.designer.cs">
+      <DependentUpon>adminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userAdmin\adminManageMember.aspx.cs">
+      <DependentUpon>adminManageMember.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userAdmin\adminManageMember.aspx.designer.cs">
+      <DependentUpon>adminManageMember.aspx</DependentUpon>
+    </Compile>
     <Compile Include="userMember\member.Master.cs">
       <DependentUpon>member.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -309,12 +346,26 @@
     <Compile Include="userMember\member.Master.designer.cs">
       <DependentUpon>member.Master</DependentUpon>
     </Compile>
+    <Compile Include="userMember\memberArticle.aspx.cs">
+      <DependentUpon>memberArticle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberArticle.aspx.designer.cs">
+      <DependentUpon>memberArticle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="userMember\memberContact.aspx.cs">
       <DependentUpon>memberContact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="userMember\memberContact.aspx.designer.cs">
       <DependentUpon>memberContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userMember\memberForum.aspx.cs">
+      <DependentUpon>memberForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberForum.aspx.designer.cs">
+      <DependentUpon>memberForum.aspx</DependentUpon>
     </Compile>
     <Compile Include="userMember\memberHome.aspx.cs">
       <DependentUpon>memberHome.aspx</DependentUpon>
@@ -351,6 +402,13 @@
     <Compile Include="userMember\memberFAQ.aspx.designer.cs">
       <DependentUpon>memberFAQ.aspx</DependentUpon>
     </Compile>
+    <Compile Include="userMember\memberViewForum.aspx.cs">
+      <DependentUpon>memberViewForum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userMember\memberViewForum.aspx.designer.cs">
+      <DependentUpon>memberViewForum.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -368,7 +426,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
-    <Folder Include="userAdmin\" />
     <Folder Include="userTrainer\" />
   </ItemGroup>
   <ItemGroup>
@@ -376,6 +433,7 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
     <Content Include="userMember\member.Master" />
+    <Content Include="userAdmin\admin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -7,21 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ramly.userMember
+namespace ramly.userAdmin
 {
 
 
-    public partial class memberHome
+    public partial class adminHome
     {
 
         /// <summary>
-        /// member_name control.
+        /// traineradmin_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label member_name;
+        protected global::System.Web.UI.WebControls.Label traineradmin_name;
 
         /// <summary>
         /// LinkButton1 control.

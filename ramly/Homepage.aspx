@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Homepage.aspx.cs" Inherits="ramly._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
+<body style="background-color: #E8E2DB;">
     <div style="background:url(Images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
         <h1>Vision Fitness</h1>
         <p class="lead">Be our member, be our priority. Sign up for our membership and get exclusive access ot our live-workouts, 1-to-1 coaching, premium community and many more!</p>
@@ -25,7 +25,7 @@
                 <a class="btn btn-default" onclick="errorLoginFunction()">Read more &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" style="background-image: linear-gradient(to right, white, #E8E2DB)">
             <h2>Social Media
             </h2>
             <p>
@@ -39,5 +39,5 @@ function errorLoginFunction() {
   alert("Please login to see content");
 }
     </script>
-
+</body>
 </asp:Content>

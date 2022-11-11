@@ -1,8 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="learnWorkLifeBalance.aspx.cs" Inherits="ramly.learn.learnWorkLifeBalance" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<link rel="stylesheet" href="Style_Sheet/worklifebalance.css"> 
+<link rel="stylesheet" href="../style/Learn_style3.css"> 
 <body>
-  <div style="background:url(Images/rocktower.jpg); background-position:bottom; background-size: cover;" class="about-section">
+  <div style="background:url(/Images/rocktower.jpg); background-position:bottom; background-size: cover;" class="about-section">
     <h1 id="worknlife">Work and Life</h1>
     <p>There's life, and there's your workout lifestyle. How do you fit them together? How can you consistently reach your fitness goals while still having enough time for your etc. like family and friends? If you have a hectic lifestlye and you struggle to plan workouts during your days, this is the page for you.</p>
   </div>

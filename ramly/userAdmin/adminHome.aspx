@@ -1,19 +1,19 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="member.Master" AutoEventWireup="true" CodeBehind="memberHome.aspx.cs" Inherits="ramly.userMember.memberHome" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/userAdmin/admin.Master" AutoEventWireup="true" CodeBehind="adminHome.aspx.cs" Inherits="ramly.userAdmin.adminHome" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-        <h1>
-        Member Dashboard
+            <h1>
+        Admin Dashboard
     </h1>
-    <asp:Label ID="member_name" runat="server"></asp:Label>
+    <asp:Label ID="traineradmin_name" runat="server"></asp:Label>
     &nbsp;&nbsp;&nbsp;
-    <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click1">Edit Profile</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton1" runat="server" >Edit Profile</asp:LinkButton>
     &nbsp;&nbsp;&nbsp;
     <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click1">Sign Out</asp:LinkButton>
     <br />
 <body>
     <div style="background:url(/images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
         <h1>Vision Fitness</h1>
-        <p class="lead">We are glad you are our member, you are our priority. Workout and live a healthy and happy life!</p>
+        <p class="lead">Welcome!</p>
     </div>
 
     <div class="row">
@@ -33,7 +33,7 @@
                 <a class="btn btn-default" href="memberArticle.aspx">Read more &raquo;</a>
             </p>
         </div>
-        <div class="col-md-4" style="background-image: linear-gradient(to right, white, #E8E2DB)">
+        <div class="col-md-4">
             <h2>Social Media
             </h2>
             <p>

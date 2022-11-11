@@ -1,27 +1,27 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="learnNutrition.aspx.cs" Inherits="ramly.learn.learnNutrition" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <link rel="stylesheet" href="Style_Sheet/nutrition.css"> 
+    <link rel="stylesheet" href="../style/Learn_style3.css"> 
 <body>
-  <div style="background:url(Images/food.jpeg); background-repeat: no-repeat; background-size: cover;" class="about-section">
+  <div style="background:url(/Images/food.jpeg); background-repeat: no-repeat; background-size: cover;" class="about-section">
     <h1 id="nutrition">Nutrition</h1>
     <p>Nutrition is the most common mistakes among gym beginners. Eating enough is one thing, and eating right is another. Only together, you can start achieving your fitness goals and start seeing progess in your fitness journey.</p>
   </div>
 
   <h2>Pillars of Nutrition</h2>
   <div class="row">
-  <div class="column" style="background:url(Images/avocado.jpg);  background-size: cover;">
+  <div class="column" style="background:url(/Images/avocado.jpg);  background-size: cover;">
     <h3>Fat</h3>
   </div>
-  <div class="column" style="background:url(Images/chicken.jpg);  background-size: cover;">
+  <div class="column" style="background:url(/Images/chicken.jpg);  background-size: cover;">
     <h3>Protein</h3>
   </div>
-  <div class="column" style="background:url(Images/sweetpotatoes.jpg);  background-size: cover;">
+  <div class="column" style="background:url(/Images/sweetpotatoes.jpg);  background-size: cover;">
     <h3>Carbohydrate</h3>
   </div>
-  <div class="column" style="background:url(Images/greens.jpeg);  background-size: cover;">
+  <div class="column" style="background:url(/Images/greens.jpeg);  background-size: cover;">
     <h3>Vitamin and Minerals</h3>
   </div>
-  <div class="column" style="background:url(Images/water.jpg);  background-size: cover;">
+  <div class="column" style="background:url(/Images/water.jpg);  background-size: cover;">
     <h3>Water</h3>
   </div>
   

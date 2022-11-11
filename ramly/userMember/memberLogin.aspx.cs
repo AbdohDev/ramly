@@ -16,8 +16,9 @@ namespace ramly.userMember
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void loginButton_Click(object sender, EventArgs e)
         {
+            Session.Clear();
             SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString);
             con.Open();
 
@@ -47,6 +48,7 @@ namespace ramly.userMember
                 errMsg.Visible = true;
                 errMsg.ForeColor = System.Drawing.Color.Red;
                 errMsg.Text = "Email and Password mismatch!";
+                Session.Clear();
                 return;
             }
 
@@ -54,6 +56,11 @@ namespace ramly.userMember
         }
 
         protected void register_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void staffLogin_Click(object sender, EventArgs e)
         {
 
         }

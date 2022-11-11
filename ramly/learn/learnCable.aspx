@@ -3,11 +3,11 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Style_Sheet/learnCable.css">
+<link rel="stylesheet" href="../style/Learn_style1.css">
 </head>
 <body>
 
-<div class="sidenav">
+<div class="sidenav" style="background-color: #098b10">
   <div style="background-color: black; font-size: 30px;">
   <a href="#upperbody">Workout List</a>
   </div>
@@ -22,7 +22,7 @@
   </div>
 </div>
 
-<div class="main">
+<div class="main" style="background-color: #93e696">
    <h2 id="Cable_Workouts" style="text-align:center">Cable Workouts</h2>
    <h2>Upper Body</h2>
        <p id="Lateral_Raise">Bent-over Lateral Raise</p>

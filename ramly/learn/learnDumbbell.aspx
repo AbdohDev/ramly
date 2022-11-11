@@ -3,11 +3,11 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Style_Sheet/learnDumbbell.css">
+<link rel="stylesheet" href="../style/Learn_style1.css">
 </head>
 <body>
 
-<div class="sidenav">
+<div class="sidenav" style="background-color: #1A3263">
   <div style="background-color: black; font-size: 30px;">
   <a href="#upperbody">Upper Body</a>
   <a href="#lowerbody">Lower Body</a>
@@ -33,7 +33,7 @@
   </div>
 </div>
 
-<div class="main">
+<div class="main" style="background-color: #94b7fe">
    <h2 id="Dumbbell_Workouts" style="text-align:center">Dumbbell Workouts</h2>
    <h2>Upper Body</h2>
        <p id="Lateral_Raise">Lateral Raise</p>

@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Style_Sheet/learnBW2.css">
+<link rel="stylesheet" href="../style/Learn_style2.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 </div>
 
 <div class="main">
-  <div style="background:url(Images/bar.jpg);" class="about-section">
+  <div style="background-image:url(/Images/bar.jpg);" class="about-section">
   <h1>Bar Workout</h1>
   <p>The simple bar. Its more than just doing pull ups. Train like a pro and level up your 'bar' game with these bar exercises.</p>
   </div>

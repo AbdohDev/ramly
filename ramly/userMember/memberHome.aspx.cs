@@ -14,17 +14,36 @@ namespace ramly.userMember
             //Code to check whether the user is logged in
             if (Session["m_name"] != null)
             {
-                Label1.Text = "Hello and welcome user " + Session["m_name"].ToString() + "!";
+                member_name.Text = "Hello and welcome " + Session["m_name"].ToString() + "!";
             }
             else
             {
-                Response.Redirect("memberLogin");
+                Response.Redirect("memberLogin.aspx");
             }
             //Debug Section: Start - This is just to check whether Session is working
             //string name = Session["m_name"].ToString();
             //string id = Session["m_id"].ToString();
             //Label1.Text = name + " " + id;
             //Debug Section: End
+        }
+
+        /*protected void LinkButton1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("memberEditProfile.aspx");
+        }*/
+
+        protected void LinkButton1_Click1(object sender, EventArgs e)
+        {
+            
+
+            Response.Redirect("memberEditProfile.aspx");
+        }
+        protected void LinkButton2_Click1(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Request.Cookies.Clear();
+
+            Response.Redirect("memberLogin.aspx");
         }
     }
 }

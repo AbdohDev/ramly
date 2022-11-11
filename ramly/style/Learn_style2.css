@@ -1,0 +1,72 @@
+﻿html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #E8E2DB;
+}
+
+.sidenav {
+    background: #1A3263;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 10px 6px 10px 30px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+    }
+
+        .sidenav a:hover {
+            color: #808080;
+        }
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #1A3263;
+    color: white;
+    background-position: center;
+}
+
+.main {
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 0px 20px 0px;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 20px 40px 0px 40px;
+}
+
+p {
+    font-size: 25px;
+    padding: 0px 40px 0px 40px;
+}
+
+img {
+    padding: 10px 40px 10px 40px;
+    align-content: center;
+    height: 250px;
+    width: auto;
+}
