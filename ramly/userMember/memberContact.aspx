@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Contact Us" Language="C#" MasterPageFile="member.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="ramly.Contact" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link rel="stylesheet" href="style/MenuBar_Style2.css">
+    <link rel="stylesheet" href="/style/MenuBar_Style2.css">
     <head>
     <meta charset="UTF-8">
    <!-- <title> Responsive Contact Us Form  | CodingLab </title>-->
@@ -38,19 +38,19 @@
         <p>If you have any enquiries, feel free to leave us a short message down below and we will try our best to answer them. </p>
       <form action="#">
         <div class="input-box">
-          <input type="text" placeholder="Enter your name">
+          <input runat="server" type="text" placeholder="Enter your name">
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Enter your email">
+          <input runat="server"  type="text" placeholder="Enter your email">
         </div>
         <div class="input-box">
-          <input type="text" style="height: 180px" placeholder="Enter your message">
+          <input runat="server"  type="text" style="height: 180px" placeholder="Enter your message">
         </div>
         <div class="input-box message-box">
           
         </div>
         <div class="button">
-          <input type="button" value="Send Now" >
+          <asp:button runat="server" ID="addForum" style="background-color: #1A3263; color:white; padding:5px;"  Text="Send Now"/>
         </div>
       </form>
     </div>

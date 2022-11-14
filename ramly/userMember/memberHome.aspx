@@ -10,7 +10,7 @@
     &nbsp;&nbsp;&nbsp;
     <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click1">Sign Out</asp:LinkButton>
     <br />
-<body>
+<body style="background-color: #E8E2DB;">
     <div style="background:url(/images/GymBackground.jpeg); background-position:center; color:aliceblue" class="jumbotron">      
         <h1>Vision Fitness</h1>
         <p class="lead">We are glad you are our member, you are our priority. Workout and live a healthy and happy life!</p>

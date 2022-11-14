@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="sidenav" style="background: #F16821">
+<div class="sidenav">
   <div style="background-color: black; font-size: 30px;">
   <a href="#upperbody">Upper Body</a>
   <a href="#lowerbody">Lower Body</a>
@@ -28,7 +28,7 @@
   </div>
 </div>
 
-<div class="main" style="background-color: #FAB95B">
+<div class="main">
    <h2 id="Barbell_Workouts" style="text-align:center">Barbell Workouts</h2>
    <h2>Upper Body</h2>
        <p id="Frontal_Raise">Frontal Raise</p>

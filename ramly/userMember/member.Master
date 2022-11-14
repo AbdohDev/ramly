@@ -55,7 +55,7 @@
                         <li><a runat="server" href="memberContact">Contact Us</a></li>
                         <li><a runat="server" href="">Learn More</a></li>
                         <li><a runat="server" href="memberFAQ">FAQ</a></li>
-                        <li><a runat="server" href="">Forum</a></li>
+                        <li><a runat="server" href="memberForum.aspx">Forum</a></li>
                         <li><a runat="server" href="">Article</a></li>
                         <li><a runat="server" href="memberEditProfile">Your Account</a></li>
                     </ul>

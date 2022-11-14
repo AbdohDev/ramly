@@ -38,19 +38,20 @@
         <p>If you have any enquiries, feel free to leave us a short message down below and we will try our best to answer them. </p>
       <form action="#">
         <div class="input-box">
-          <input type="text" placeholder="Enter your name">
+          <input runat="server" type="text" name="txtName" id="txtName" placeholder="Enter your name">
         </div>
         <div class="input-box">
-          <input type="text" placeholder="Enter your email">
+          <input runat="server"  type="text" name="txtEmail" id="txtEmail" placeholder="Enter your email">
         </div>
         <div class="input-box">
-          <input type="text" style="height: 180px" placeholder="Enter your message">
+          <input runat="server"  type="text" name="txtMessage" id="txtMessage" style="height: 180px" placeholder="Enter your message">
         </div>
         <div class="input-box message-box">
           
         </div>
         <div class="button">
-          <input type="button" value="Send Now" >
+          <asp:button runat="server" ID="addForum" style="background-color: #1A3263; color:white; padding:5px;"  OnClick="addContact_Click" Text="Send Now"/>
+                        <asp:Label ID="Label1" runat="server"></asp:Label>
         </div>
       </form>
     </div>

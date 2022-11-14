@@ -119,9 +119,6 @@ body {
         transition: all 0.3s ease;
     }
 
-.button input[type="button"]:hover {
-    background: #1A3263;
-}
 
 @media (max-width: 950px) {
     .container {

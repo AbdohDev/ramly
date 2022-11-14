@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="sidenav" style="background-color: #1A3263">
+<div class="sidenav">
   <div style="background-color: black; font-size: 30px;">
   <a href="#upperbody">Upper Body</a>
   <a href="#lowerbody">Lower Body</a>
@@ -33,7 +33,7 @@
   </div>
 </div>
 
-<div class="main" style="background-color: #94b7fe">
+<div class="main">
    <h2 id="Dumbbell_Workouts" style="text-align:center">Dumbbell Workouts</h2>
    <h2>Upper Body</h2>
        <p id="Lateral_Raise">Lateral Raise</p>
