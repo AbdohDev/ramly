@@ -50,7 +50,7 @@
           
         </div>
         <div class="button">
-          <asp:button runat="server" ID="addForum" style="background-color: #1A3263; color:white; padding:5px;"  Text="Send Now"/>
+          <asp:button runat="server" style="background-color: #1A3263; color:white; padding:5px;"  Text="Send Now"/>
         </div>
       </form>
     </div>
