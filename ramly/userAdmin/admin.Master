@@ -51,13 +51,12 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <!-- Admin Related Buttons Only -->
-                        <li><a runat="server" href="memberAbout">About Us</a></li>
-                        <li><a runat="server" href="memberContact">Contact Us</a></li>
-                        <li><a runat="server" href="">Learn More</a></li>
+                        <li><a runat="server" href="../userMember/memberAbout">About Us</a></li>
+                        <li><a runat="server" href="../userMember/memberContact">Contact Us</a></li>
+                        <li><a runat="server" href="../learn/learnHome">Learn More</a></li>
                         <li><a runat="server" href="memberFAQ">FAQ</a></li>
                         <li><a runat="server" href="">Forum</a></li>
                         <li><a runat="server" href="">Article</a></li>
-                        <li><a runat="server" href="">Your Account</a></li>
                     </ul>
                 </div>
             </div>
